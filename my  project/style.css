@@ -451,15 +451,8 @@ footer.footer ul li a{color: #ffffff;text-decoration: none;}
 footer.footer p{font-size: 18px;color:#dcdcdc;}
 
 
-/***responsive---/
+/***responsive---/******/
 
-@media only screen and (min-width: 960px) and (max-width: 1023px) {}
-
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	.description h2{font-size:15px;}
-	/******/
-.testimonials{padding: 18rem 0;}
-}
 
 @media only screen and (max-width:736px) and (orientation:landscape){}
 @media only screen and (max-width:667px) and (orientation:landscape){}
@@ -471,7 +464,7 @@ footer.footer p{font-size: 18px;color:#dcdcdc;}
     header .tophead {margin-top: 145px;}
     header .title-main {font-size: 28px;}
     header .subtitle-main {font-size: 13px;}
-    header .callback{padding: 5px 8px;font-size: 13px;}
+
 
     /******/
     .overview .title-overview{font-size: 28px;}
@@ -481,8 +474,7 @@ footer.footer p{font-size: 18px;color:#dcdcdc;}
     .subtitle-our-team{font-size: 14px;}
     /******/
     .title-testimonials{font-size: 28px;}
-    .subtitle-testimonials{font-size: 14px;}
-    /******/
+       /******/
     .slide-one {padding: 30px 25px;}
     /******/
     section#blog .title-blog{font-size: 28px;}
@@ -496,7 +488,6 @@ footer.footer p{font-size: 18px;color:#dcdcdc;}
     header .tophead {margin-top: 145px;}
     header .title-main {font-size: 25px;}
     header .subtitle-main {font-size: 13px;}
-    header .callback{padding: 5px 8px;font-size: 13px;}
 
     /******/
     .overview .title-overview{font-size: 25px;}
@@ -506,8 +497,7 @@ footer.footer p{font-size: 18px;color:#dcdcdc;}
     .subtitle-our-team{font-size: 14px;}
     /******/
     .title-testimonials{font-size: 25px;}
-    .subtitle-testimonials{font-size: 14px;}
-    /******/
+       /******/
     .slide-one {padding: 30px 25px;}
     /******/
     section#blog .title-blog{font-size: 25px;}
@@ -519,25 +509,51 @@ footer.footer p{font-size: 18px;color:#dcdcdc;}
 
 
 @media only screen and (max-width: 320px) {
-    header .tophead {margin-top: 125px;}
-    header .title-main {font-size: 18px;}
-    header .subtitle-main {font-size: 13px;}
-    header .callback{padding: 5px 8px;font-size: 13px;}
+    header .tophead {
+        margin-top: 125px;
+    }
+
+    header .title-main {
+        font-size: 18px;
+    }
+
+    header .subtitle-main {
+        font-size: 13px;
+    }
 
     /******/
-    .overview .title-overview{font-size: 25px;}
-    .overview .subtitle-overview{font-size: 14px;}
+    .overview .title-overview {
+        font-size: 25px;
+    }
+
+    .overview .subtitle-overview {
+        font-size: 14px;
+    }
+
     /******/
-    .title-our-team{font-size: 25px;}
-    .subtitle-our-team{font-size: 14px;}
+    .title-our-team {
+        font-size: 25px;
+    }
+
+    .subtitle-our-team {
+        font-size: 14px;
+    }
+
     /******/
-    .title-testimonials{font-size: 25px;}
-    .subtitle-testimonials{font-size: 14px;}
+    section#blog .title-blog {
+        font-size: 25px;
+    }
+
+    section#blog .subtitle-blog {
+        font-size: 14px;
+    }
+
     /******/
-    .slide-one {padding: 30px 25px;}
-    /******/
-    section#blog .title-blog{font-size: 25px;}
-    section#blog .subtitle-blog{font-size: 14px;}
-    /******/
-    .contactForm{padding: 0;}
-    .contact-wrap h2{font-size: 25px;}
+    .contactForm {
+        padding: 0;
+    }
+
+    .contact-wrap h2 {
+        font-size: 25px;
+    }
+}
