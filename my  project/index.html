@@ -166,7 +166,9 @@
     </section>
 
     <section class="price-wrap" id="price">
-        <div class="checkbox">
+        <!-- створили форму для роботи з елементами серіалайз -->
+        <form id="price-form">
+            <div class="checkbox">
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-p">
             <div class="row">
@@ -310,6 +312,7 @@
         </div>
     </div>
         </div>
+        </form>
         </section>
     <section class="blog-wrap" id="blog">
         <div class="container-fluid">
@@ -362,7 +365,7 @@
                             <span class="section-heading-upper">Форма звязку</span>
                         </h2>
                         <div class="contactForm">
-                            <form>
+                            <form id="contact-input">
                                 <div class="form-group">
                                     <input type="text" name="name" class="form-control" placeholder="Ім'я" required="required">
                                 </div>
@@ -400,7 +403,13 @@
         </div>
     </div>
 </footer>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script>
     new WOW().init();
 </script>

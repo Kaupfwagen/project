@@ -119,11 +119,6 @@ header .btn-account{
     text-align: center;
 }
 
-
-
-
-
-
 /***ВІП***/
 .diagonal{
     z-index: 10;
@@ -147,9 +142,6 @@ header .btn-account{
     overflow: hidden;
     padding: 100px 5px;
 }
-
-
-
 
 /***our team***/
 .our-team{position: relative;padding: 5rem 0;}
