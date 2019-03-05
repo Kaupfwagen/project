@@ -2,7 +2,7 @@
 //print_r ($_REQUEST);
 
 $errors =[];
-//валідація даних дописати
+
 if (empty($_REQUEST['name'])) {
     $errors[] = 'Веедіть Ім*я';
 }

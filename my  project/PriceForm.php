@@ -19,11 +19,10 @@ if (empty($_REQUEST['email'])) {
 }
 if (empty($_REQUEST['phone'])) {
     $errors[] = 'Ведіть phone';
-//} else if (!filter_var($_REQUEST['phone'],FILTER_VALIDATE_REGEXP = "/^\+380\d{3}\d{2}\d{2}\d{2}$/";)) {
-   // $errors[] = 'неправильний phone';
-    //define("REGEXP_PHONE_UA",""/^\+380\d{3}\d{2}\d{2}\d{2}$/"");
-      // $string = "+380971234567";
-       //var_dump(filter_var($string, FILTER_VALIDATE_REGEXP,array("options"=>array("regexp"=>REGEXP_PHONE_UA))));
+   define("REGEXP_PHONE_UA",""/^\+380\d{3}\d{2}\d{2}\d{2}$/"");
+   $string = "+380971234567";
+   var_dump(filter_var($string, FILTER_VALIDATE_REGEXP,array("options"=>array("regexp"=>REGEXP_PHONE_UA))));
+   $errors[] = 'неправильний phone';
 }
 if (empty($_REQUEST['mens'])) {
     $errors[] = 'Введіть кількість працівників';
